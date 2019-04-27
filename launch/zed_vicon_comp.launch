@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<!--be sure to connect to wifi of lab_z-->
+<include file="$(find mav_vo_comp)/launch/zed_camera.launch"/>
+
+<!--rviz-->
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find mav_vo_comp)/rviz/rviz.rviz"/>
+
+<!--vicon-->
+<include file="$(find vicon_bridge)/launch/vicon.launch"/>
+
+</launch>
