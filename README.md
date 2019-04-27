@@ -2,9 +2,9 @@
 
 ____
 
-<img src="https://github.com/icsl-Jeon/traj_gen/blob/master/img/rviz.png">
+<img src="https://github.com/icsl-Jeon/vo_comparison/blob/master/img/rviz.png">
 
-<img src="https://github.com/icsl-Jeon/traj_gen/blob/master/img/vicon_zed_vins.png">
+<img src="https://github.com/icsl-Jeon/vo_comparison/blob/master/img/vicon_zed_vins.png">
 
 This package compare different VO algorithms(VO from ZED stereo labs and vins fusion from HKUST) with VICON sensor data.
 
